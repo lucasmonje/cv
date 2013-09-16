@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<gallery>
+	<photo name="SNOWTPUCK" image="web_01" titulo="SNOWTPUCK" fecha="Agosto.2007" tecno="TECNOLOGIAS: XHTML, CSS, JavaScript, Photoshop, Flash, illustrator, Dreamweaver" descrip= "| web + identidad corporativa + imprenta | Diseño de imagen institucional de la empresa, incluyendo logotipo, isotipo, papeleria (facturas, tarjetas, folletos institucionales y promocionales), sitio web, y fotografia de distintos productos y aplicaciones." www="http://www.snowtpuck.com.ar" /> 
+	<photo name="ADPA-FARGA" image="web_02" titulo="ADPA-FARGA" fecha="Agosto.2007" tecno="TECNOLOGIAS: HTML, CSS, Photoshop, Dreamweaver" descrip= "| web + fotografía |" www="" /> 
+	<photo name="TAXIS EUROPA" image="web_03" titulo="TAXIS EUROPA" fecha="Abril.2007" tecno="TECNOLOGIAS: Photoshop, Dreamweaver, XHTML, CSS" descrip= "| web | Creacion de sitio web institucional para la agencia de Taxis en la costa brava española. Se crearon distintas propuestas, basadas en los colores caracteristicos de la empresa, y se codifico el sitio siguiendo los estandares W3C. Tambien se le brinda hosting en nuestros servidores." www="http://www.taxiseuropa.com" /> 
+	<photo name="PLAIMONT GOLF" image="web_04" titulo="PLAIMONT GOLF" fecha="Marzo.2007" tecno="TECNOLOGIAS: Flash, Photoshop, Dreamweaver, XHTML, CSS" descrip= "| web + logo | Desarrollo de sitio en Flash en dos idiomas, ingles y español. Desarrollo de contenidos e imagenes. Programacion en Actionscript. Presentacion institucional de la empresa. Hosting del sitio. Campaña promocional en Google Adwords." www="http://www.plaimontgolf.com" /> 
+	<photo name="TROUVILLE" image="web_05" titulo="TROUVILLE Apart Hotel" fecha="Agosto.2006" tecno="TECNOLOGIAS: Photoshop, Flash, HTML, CSS" descrip= "| web | " www="" /> 
+	<photo name="Chocolate" image="web_06" titulo="Chocolate Apart Hotel" fecha="Agosto.2005" tecno="TECNOLOGIAS: Photoshop, Flash, HTML" descrip= "| web + logotipo | " www="" /> 
+	<photo name="Altasur" image="web_07" titulo="Altasur" fecha="Agosto.2005" tecno="TECNOLOGIAS: Photoshop, Flash, Dreamweaver, HTML" descrip= "| web | " www="http://www.altasur.com.ar" /> 
+	<photo name="e-nash" image="web_08" titulo="e-nash" fecha="Mayo.2005" tecno="TECNOLOGIAS: Flash, Photoshop, Illustrator" descrip= "| web | " www="" /> 
+	<photo name="AKIABARA" image="web_09" titulo="AKIABARA" fecha="Diciembre.2004" tecno="TECNOLOGIAS: Photoshop" descrip= "| web | " www="" /> 
+	<photo name="PROJECTDESIGN" image="web_10" titulo="PROJECTDESIGN" fecha="Mayo.2008" tecno="TECNOLOGIAS: Photoshop, Flash, HTML" descrip= "| web + logotipo + presentacion institucional | " www="" /> 
+</gallery>

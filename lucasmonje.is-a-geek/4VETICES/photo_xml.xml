@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+<motion>
+	<photo name="Plato oriental" image="photo_01" titulo="Plato horiental" fecha="Agosto.20087" /> 
+	<photo name="Ajo" image="photo_02" titulo="Ajo" fecha="febrero.2008" /> 
+	<photo name="Fiambres y quesos" image="photo_03" titulo="Fiambres y quesos" fecha="Abril.2008" />
+	<photo name="Marea Naranja" image="photo_04" titulo="Marea Naranja" fecha="Agosto.2005" />  
+	<photo name="Fender" image="photo_05" titulo="Fender" fecha="Agosto.2006" />
+	<photo name="Vino FincaDolores" image="photo_06" titulo="Vino FincaDolores" fecha="Junio.2008" /> 
+	<photo name="Funda MacBook Air" image="photo_07" titulo="Funda MacBook Air" fecha="Mayo.2008" />
+	<photo name="Funda iTouch" image="photo_08" titulo="Funda iTouch" fecha="febrero.2008" />
+</motion>

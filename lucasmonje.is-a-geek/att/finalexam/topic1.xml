@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson label="" title="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.elml.ch  validate.xsd" xmlns="http://www.elml.ch" navTitle="">
+	<configurations>
+		<configuration confID="navigation">
+			<!--
+			clickOnScreen values: none, moveNext, moveNextElementOnly
+			blinkTime values: An whole value. It represent the milliseconds that next button blink. 
+			 -->
+			<blinkTime>4000</blinkTime>
+			<clickOnScreen>none</clickOnScreen>
+			<captureKey>false</captureKey>
+			<fullscreen>false</fullscreen>
+			<scormCompletedByDefault>false</scormCompletedByDefault>
+			<!--
+			documentPrintable = link to print.doc (button print)
+			 -->
+			<documentPrintable><![CDATA[module_1.pdf]]></documentPrintable>
+			<courseTitle>Assessment and Treatment of Trauma</courseTitle>
+			<notesUrl>notes.htm</notesUrl>
+           	<glossaryUrl>glossary.html</glossaryUrl>
+		</configuration>
+	</configurations>
+	
+	<entry>
+	</entry>
+	
+	<unit>
+		<learningObject title="Precourse Module Final Exam" resID="frame01" navTitle="" frameNr="1" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+		            <clarify>
+		                <headerTitle1>Precourse Module Final Exam</headerTitle1>
+		                <multimedia src="swflo/learning_scenario.swf?xmlfile=finalexam/swflo/l1_01.xml&scorm=true"  conn_name="activity" reloadable="true" />
+		            </clarify>
+		</learningObject>
+	</unit>
+	
+	<glossary></glossary>
+	
+	<bibliography visible="none" sorting="byAuthor">
+		<book bibID="" author="" publicationYear="" title="" publisher="" publicationPlace="" />
+	</bibliography>
+	
+	<additionalInformation>
+		<info infoID="">
+			<clarify>
+				<headerTitle2> </headerTitle2>
+				<paragraph> </paragraph>
+			</clarify>
+		</info>
+	</additionalInformation>
+
+	<resources>
+		<resource resID="frame01" audio="[stop]">
+			<narrationText>&nbsp;</narrationText>
+		</resource>		
+	</resources>
+	
+</lesson>

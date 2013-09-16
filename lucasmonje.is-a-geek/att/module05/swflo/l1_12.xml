@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--<!DOCTYPE test_questions SYSTEM "test_questions.dtd">-->
+
+<test_questions>
+
+<summarytext_all_correct>You did it! You chose the correct answer. Keep up the great work.</summarytext_all_correct>
+<summarytext><![CDATA[<p>You completed the exercise.<br><br>Now you can go back and review or continue by navigating to the next screen.</p>]]></summarytext>
+
+<instructions><![CDATA[Read each item carefully, and then select the best response.]]></instructions>
+
+<objectives><![CDATA[<p></p>]]></objectives>
+
+<instructions_popup></instructions_popup>
+
+<question>
+		<scenario><![CDATA[Periumbilical bruising is:]]></scenario>
+		<image_source></image_source>
+		<q typeQ="MC"><![CDATA[ ]]></q>
+		<a><![CDATA[commonly observed in the prehospital setting following blunt force trauma to the abdomen.]]></a>
+		<a correct="true"><![CDATA[referred to as Cullen's sign.]]></a>
+		<a><![CDATA[usually seen in conjunction with flank bruising.]]></a>
+		<a><![CDATA[also called Grey Turner's sign.]]></a>
+		
+		<feed_back_positive specific="true"><![CDATA[That's correct!]]></feed_back_positive>
+		<feed_back_negative specific="true"><![CDATA[Incorrect.]]></feed_back_negative>
+</question>
+
+</test_questions>

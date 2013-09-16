@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--<!DOCTYPE test_questions SYSTEM "test_questions.dtd">-->
+
+<test_questions>
+
+<summarytext_all_correct>You did it! You chose all of the correct answers. Keep up the great work.</summarytext_all_correct>
+<summarytext><![CDATA[<p>You completed the exercise.<br><br>Now you can go back and review or continue by navigating to the next screen.</p>]]></summarytext>
+
+<instructions><![CDATA[Read each item carefully, and then select the best response.]]></instructions>
+
+<objectives><![CDATA[<p></p>]]></objectives>
+
+<instructions_popup></instructions_popup>
+
+<question>
+		<scenario><![CDATA[The acute physiologic and structural change that occurs in a patient's body when an external source of energy dissipates faster than the body's ability to sustain and dissipate it is called:]]></scenario>
+		<image_source></image_source>
+		<q typeQ="MC"><![CDATA[ ]]></q>
+		<a><![CDATA[injury.]]></a>
+		<a correct="true"><![CDATA[trauma.]]></a>
+		<a><![CDATA[deceleration.]]></a>
+		<a><![CDATA[kinematics.]]></a>
+		
+		<feed_back_positive specific="true"><![CDATA[That's correct!]]></feed_back_positive>
+		<feed_back_negative specific="true"><![CDATA[Incorrect.]]></feed_back_negative>
+</question>
+
+</test_questions>

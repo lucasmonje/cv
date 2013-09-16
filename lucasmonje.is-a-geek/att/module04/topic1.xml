@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson label="" title="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.elml.ch  validate.xsd" xmlns="http://www.elml.ch" navTitle="">
+	<configurations>
+		<configuration confID="navigation">
+			<!--
+			clickOnScreen values: none, moveNext, moveNextElementOnly
+			blinkTime values: An whole value. It represent the milliseconds that next button blink. 
+			 -->
+			<blinkTime>4000</blinkTime>
+			<clickOnScreen>none</clickOnScreen>
+			<captureKey>false</captureKey>
+			<fullscreen>false</fullscreen>
+			<!--
+			documentPrintable = link to print.doc (button print)
+			 -->
+			<documentPrintable><![CDATA[module_1.pdf]]></documentPrintable>
+			<courseTitle>Assessment and Treatment of Trauma Precourse Module</courseTitle>
+			<notesUrl>notes.htm</notesUrl>
+           	<glossaryUrl>glossary.html</glossaryUrl>
+		</configuration>
+	</configurations>
+	
+	<entry>
+	</entry>
+	
+	<unit>
+	<learningObject title="Welcome" resID="splash" navTitle="" frameNr="1" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1></headerTitle1>
+				
+					<multimedia src="module04/swf/splash.swf" conn_name="splash"/>
+					<hidden incremental="splash" moveToPage="autoload" resID="splash" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Introduction" resID="introduction" navTitle="" frameNr="2" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Introduction</headerTitle1>
+				
+					<multimedia src="module04/swf/introduction.swf" conn_name="introduction"/>
+					<hidden incremental="introduction" moveToPage="autoload" resID="introduction" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+	
+		<learningObject title="Anatomy" resID="frame01" navTitle="" frameNr="3" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Anatomy</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_01.swf" conn_name="s1"/>
+					<hidden incremental="s1" moveToPage="autoload" resID="frame01" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Injury to the Face" resID="frame02" navTitle="" frameNr="4" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Face</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_02.swf" conn_name="s2"/>
+					<hidden incremental="s2" moveToPage="autoload" resID="frame02" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Assessment of Facial Injury" resID="frame03" navTitle="" frameNr="5" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Facial Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_03.swf" conn_name="s3"/>
+					<hidden incremental="s3" moveToPage="autoload" resID="frame03" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Treatment of Facial Injury" resID="frame04" navTitle="" frameNr="6" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Facial Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_04.swf" conn_name="s4"/>
+					<hidden incremental="s4" moveToPage="autoload" resID="frame04" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+	
+		<learningObject title="Eye Injury" resID="frame05" navTitle="" frameNr="7" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Eye Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_05.swf" conn_name="s5"/>
+					<hidden incremental="s5" moveToPage="autoload" resID="frame05" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Check Your Understanding" resID="frame06" navTitle="" frameNr="8" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module04/swflo/l1_06.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of Eye Injury" resID="frame07" navTitle="" frameNr="9" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Eye Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_07.swf" conn_name="s7"/>
+					<hidden incremental="s7" moveToPage="autoload" resID="frame07" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment of Eye Injury" resID="frame08" navTitle="" frameNr="10" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Eye Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_08.swf" conn_name="s8"/>
+					<hidden incremental="s8" moveToPage="autoload" resID="frame08" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Ear Injury" resID="frame09" navTitle="" frameNr="11" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Ear Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_09.swf" conn_name="s9"/>
+					<hidden incremental="s9" moveToPage="autoload" resID="frame09" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Ear Injury Assessment" resID="frame10" navTitle="" frameNr="12" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Ear Injury Assessment</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_10.swf" conn_name="s10"/>
+					<hidden incremental="s10" moveToPage="autoload" resID="frame10" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Ear Injury Treatment" resID="frame11" navTitle="" frameNr="13" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Ear Injury Treatment</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_11.swf" conn_name="s11"/>
+					<hidden incremental="s11" moveToPage="autoload" resID="frame11" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Nose and Mouth Injury" resID="frame12" navTitle="" frameNr="14" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Nose and Mouth Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_12.swf" conn_name="s12"/>
+					<hidden incremental="s12" moveToPage="autoload" resID="frame12" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		<learningObject title="Assessment: Mouth and Nose" resID="frame13" navTitle="" frameNr="15" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment: Mouth and Nose</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_13.swf" conn_name="s13"/>
+					<hidden incremental="s13" moveToPage="autoload" resID="frame13" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment: Mouth and Nose" resID="frame14" navTitle="" frameNr="16" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment: Mouth and Nose</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_14.swf" conn_name="s14"/>
+					<hidden incremental="s14" moveToPage="autoload" resID="frame14" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		<learningObject title="Injury to the Skull" resID="frame15" navTitle="" frameNr="17" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Skull</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_15.swf" conn_name="s15"/>
+					<hidden incremental="s15" moveToPage="autoload" resID="frame15" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		
+		
+		<learningObject title="Traumatic Brain Injury" resID="frame16" navTitle="" frameNr="18" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Traumatic Brain Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_16.swf" conn_name="s16"/>
+					<hidden incremental="s16" moveToPage="autoload" resID="frame16" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="TBI Assessment" resID="frame17" navTitle="" frameNr="19" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>TBI Assessment</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_17.swf" conn_name="s17"/>
+					<hidden incremental="s17" moveToPage="autoload" resID="frame17" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Check Your Understanding" resID="frame18" navTitle="" frameNr="20" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module04/swflo/l1_18.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		
+		
+		
+		<learningObject title="TBI Treatment" resID="frame19" navTitle="" frameNr="21" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>TBI Treatment</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_19.swf" conn_name="s19"/>
+					<hidden incremental="s19" moveToPage="autoload" resID="frame19" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Injury to the Anterior Neck" resID="frame20" navTitle="" frameNr="22" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Anterior Neck</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_20.swf" conn_name="s20"/>
+					<hidden incremental="s20" moveToPage="autoload" resID="frame20" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of Anterior Neck" resID="frame21" navTitle="" frameNr="23" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Anterior Neck</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_21.swf" conn_name="s21"/>
+					<hidden incremental="s21" moveToPage="autoload" resID="frame21" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment of Anterior Neck" resID="frame22" navTitle="" frameNr="24" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Anterior Neck</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_22.swf" conn_name="s22"/>
+					<hidden incremental="s22" moveToPage="autoload" resID="frame22" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Check Your Understanding" resID="frame23" navTitle="" frameNr="25" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module04/swflo/l1_23.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Injury to the Posterior Neck" resID="frame24" navTitle="" frameNr="26" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Posterior Neck</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_24.swf" conn_name="s24"/>
+					<hidden incremental="s24" moveToPage="autoload" resID="frame24" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of C-Spine" resID="frame25" navTitle="" frameNr="27" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of C-Spine</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_25.swf" conn_name="s25"/>
+					<hidden incremental="s25" moveToPage="autoload" resID="frame25" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment of C-Spine Injury" resID="frame26" navTitle="" frameNr="28" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of C-Spine Injury</headerTitle1>
+				
+					<multimedia src="module04/swf/slide_26.swf" conn_name="s26"/>
+					<hidden incremental="s26" moveToPage="autoload" resID="frame26" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Summary" navTitle="Summary" frameNr="29" resID="summary" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="moveNextElementOnly">
+			<clarify>
+				<headerTitle1>Lesson Summary</headerTitle1>
+				<multimedia src="module04/swf/summary.swf" conn_name="s27"/>
+					<hidden incremental="s27" moveToPage="autoload" resID="summary" visibleOnStart="yes"/>
+</clarify>
+		</learningObject>
+		
+		
+	</unit>
+	
+	<glossary>
+				
+	</glossary>
+	
+	<bibliography visible="none" sorting="byAuthor">
+		<book bibID="" author="" publicationYear="" title="" publisher="" publicationPlace="" />
+	</bibliography>
+	
+	<additionalInformation>
+		<info infoID="">
+			<clarify>
+				<headerTitle2> </headerTitle2>
+				<paragraph> </paragraph>
+			</clarify>
+		</info>
+	</additionalInformation>
+	<resources>
+		<resource resID="splash" audio="[auto]"/>
+		<resource resID="introduction" audio="[auto]"/>
+		<resource resID="objectives" audio="[auto]"/>
+		<resource resID="frame01" audio="[auto]"/>
+		<resource resID="frame02" audio="[auto]"/>
+		<resource resID="frame03" audio="[auto]"/>
+		<resource resID="frame04" audio="[auto]"/>
+		<resource resID="frame05" audio="[auto]"/>
+		<resource resID="frame06" audio="[auto]"/>
+		<resource resID="frame07" audio="[auto]"/>
+		<resource resID="frame08" audio="[auto]"/>
+		<resource resID="frame10" audio="[auto]"/>
+		<resource resID="frame11" audio="[auto]"/>
+		<resource resID="frame12" audio="[auto]"/>
+		<resource resID="frame13" audio="[auto]"/>
+		<resource resID="frame14" audio="[auto]"/>
+		<resource resID="frame15" audio="[auto]"/>
+		<resource resID="frame16" audio="[auto]"/>
+		<resource resID="frame17" audio="[auto]"/>
+		<resource resID="frame18" audio="[auto]"/>
+		<resource resID="frame19" audio="[auto]"/>
+		<resource resID="frame20" audio="[auto]"/>
+		<resource resID="frame21" audio="[auto]"/>
+		<resource resID="frame22" audio="[auto]"/>
+		<resource resID="frame23" audio="[auto]"/>
+		<resource resID="summary" audio="[auto]"/>
+		<resource resID="splash"  audio="[auto]">
+		
+			<narrationText>Welcome to Module 4: Head and Neck Trauma.</narrationText>
+		</resource>  
+		<resource resID="introduction" audio="[auto]">
+			<narrationText>Injuries to the head and neck are among the most devastating traumatic injuries. Head trauma is the leading cause of trauma death, and trauma to the neck remains the leading cause of long-term disability. Much of this death and disability can be reduced through aggressive EMS care.</narrationText>
+		</resource>
+		<resource resID="objectives" audio="[auto]">
+			<narrationText>xxx</narrationText>
+		</resource>
+		<resource resID="frame01" audio="[auto]">
+			<narrationText>The anatomy of the head and neck is central to the injuries sustained to this part of the body and the treatment of those injuries. The skull is a closed box that protects the brain; the drawback to this protective shell is that it is closed and offers no room for swelling or bleeding within. The scalp can bleed freely, but this bleeding is usually more dramatic than dangerous. The face contains both airway features and structures that allow for sensory input. Any disruption to the face or front of the neck can cause life-threatening airway obstruction. The neck is an important structure because it houses both the connection between the brain and the rest of the body and vital blood flow to the brain.</narrationText>
+		</resource>
+		<resource resID="frame02" audio="[auto]">
+			<narrationText>Although injuries to the face may be dramatic and disturbing, it is important to stay focused on keeping the airway open. When an injury to the face occurs, always maintain a high index of suspicion for more severe underlying injuries. Massive soft-tissue injuries to the face can compromise the patient’s airway and may require immediate care. Facial injuries may affect the neurologic exam due to an altered level of sensory input or ability to respond appropriately, although the brain itself may not be affected.</narrationText>
+		</resource>
+		<resource resID="frame03" audio="[auto]">
+			<narrationText>A thorough assessment of the face is important after the primary survey is completed and the ABCs are stable.</narrationText>
+		</resource>
+		<resource resID="frame04" audio="[auto]">
+			<narrationText>Management of facial injuries includes ensuring that the airway is open and the neck is splinted. Bleeding should be controlled with direct pressure. Pain management and psychological care of the patient are also important for injuries to this sensitive area.</narrationText>
+		</resource>
+		<resource resID="frame05" audio="[auto]">
+			<narrationText>Although eye injuries are not usually life threatening, they can certainly be life changing. Patients can sustain injuries to the external structure of the eye or the eyeball itself. Blunt trauma can damage the bony orbit and may result in a disconjugate gaze. Damage to the eyelid and surrounding muscles should be treated like all soft-tissue injuries. Injury to the globe of the eye, the lens, or the cornea will need to be addressed by a specialist.</narrationText>
+		</resource>
+		<resource resID="frame06" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>
+		<resource resID="frame07" audio="[auto]">
+			<narrationText>In the stable patient, a good assessment may help determine how quickly the patient should be seen and if a specialty center is necessary. Visually assess both the internal and external structures of the eye for wounds, swelling, and deformity, as well as pupillary response and the ability to move eyes to all visual fields.</narrationText>
+		</resource>
+		<resource resID="frame08" audio="[auto]">
+			<narrationText>Foreign materials and chemicals in the eye must be flushed immediately with large amounts of saline or even clean water. This should be performed prior to transport and then continued during transport. Use of topical ophthalmologic anesthetic and a Morgan lens may help. Commercial kits are available to remove contact lenses if the patient is unable to assist. If the structure of the eye is injured, apply a moist, sterile dressing and a protective eye shield. Cover the second eye as well to minimize sympathetic movement.</narrationText>
+		</resource>
+		<resource resID="frame09" audio="[auto]">
+			<narrationText>Ear injuries can occur to the external tissues, called the pinna, or to the internal structures, such as the ear drum. Internal ear injury may be caused by explosions or sudden decompression. </narrationText>
+		</resource>
+		<resource resID="frame10" audio="[auto]">
+			<narrationText>In the stable patient, assessment of the ear includes inspection for visible signs of trauma to soft tissues and for fluid leaking from the ear canal. Visualization of the tympanic membrane can confirm rupture. As with the eyes, sensory perception should be assessed. </narrationText>
+		</resource>
+		<resource resID="frame11" audio="[auto]">
+			<narrationText>External ear injuries are handled like other soft-tissue injuries. If blood or cerebrospinal fluid drainage is noted, apply a loose dressing over the ear but do not attempt to stop the flow. You may need to employ alternative methods of communication with your patient, such as pointing and writing. </narrationText>
+		</resource>		
+		<resource resID="frame12" audio="[auto]">
+			<narrationText>Injuries in and around the mouth are always associated with a risk of airway compromise. Soft-tissue swelling, drainage of blood, and fractures all can cause airway obstruction.</narrationText>
+		</resource>		
+		<resource resID="frame13" audio="[auto]">
+			<narrationText>Assessment involves the visualization of the inside of the mouth and examination of the nose. Visually assess both internal and external structures for deformity, bleeding, swelling, and obstructions.</narrationText>
+		</resource>		
+		<resource resID="frame14" audio="[auto]">
+			<narrationText>Ensuring airway patency and adequate breathing are the priorities of care. Position the patient to allow drainage of liquids and then employ suction if necessary. If an impaled object can be visualized on both sides of the cheek and it interferes with the airway, it should be removed. Otherwise, the object should be stabilized in place.</narrationText>
+		</resource>		
+		<resource resID="frame15" audio="[auto]">
+			<narrationText>Because the skin on the scalp is highly vascular, scalp wounds can bleed freely and may lead to significant blood loss. Fractures to the bones of the skull indicate the amount of force that may have been transmitted to the brain. Potential complications of any skull fracture include intracranial hemorrhage, cerebral damage, and cranial nerve damage. Palpate the entire surface of the skull and bear in mind that bony abnormalities are often hard to detect.</narrationText>
+		</resource>		
+		<resource resID="frame16" audio="[auto]">
+			<narrationText>Traumatic brain injuries (TBIs) can be devastating and the effects may last for the remainder of the patient’s life. Many different mechanisms of injury can lead to TBI. A lateral blow may cause epidural hematoma. A front-to-back blow, also called coup-contracoup injury, is more likely to cause subdural hematoma. Primary injury is the direct injury to the brain from the trauma; secondary injury is damage caused by a lack of oxygen or glucose, or too much carbon dioxide reaching the brain due to problems outside the skull.</narrationText>
+		</resource>		
+		<resource resID="frame17" audio="[auto]">
+			<narrationText>The first sign of TBI is altered level of consciousness, which may be brief or prolonged. The patient may experience a complete loss of consciousness or a much more subtle alteration. Any change in consciousness or orientation to person, place, time, and events after a blow to the head is cause for concern. Monitor the patient carefully for signs and symptoms of intracranial pressure. Fluid or blood from the ears or nose may indicate a fracture.</narrationText>
+		</resource>		
+		<resource resID="frame18" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>		
+		<resource resID="frame19" audio="[auto]">
+			<narrationText>The most important prehospital treatment for TBI patients is to maintain a constant and uninterrupted supply of oxygenated blood flowing through the brain.  Blood pressure must be above 90 mm Hg systolic, oxygen saturation above 90%, blood glucose level above 70 mg/dL, and carbon dioxide level between 35 and 45 mm HG.</narrationText>
+		</resource>		
+		<resource resID="frame20" audio="[auto]">
+			<narrationText>The anterior neck contains the critical portion of the airway, the major blood vessels to and from the head, and the spinal cord, but it offers minimal protection to these structures. For these reasons, the anterior neck is extremely susceptible to life-threatening injuries.</narrationText>
+		</resource>		
+		<resource resID="frame21" audio="[auto]">
+			<narrationText>As always, physical assessment starts with inspection followed by auscultation and palpation. Listen carefully to the patient’s speech and use a stethoscope to listen to turbulence in the blood vessels. Many injuries to the larynx, trachea, and esophagus are occult. Because they are not as obvious and dramatic as penetrating neck injuries, they can be easily overlooked. Therefore, it is imperative that a complete assessment of the neck is conducted and a high index of suspicion is maintained when dealing with anterior neck injuries.</narrationText>
+		</resource>		
+		<resource resID="frame22" audio="[auto]">
+			<narrationText>The primary treatment focus is always on maintenance of the airway with adequate ventilation and controlling massive bleeding. Bleeding from the neck can be copious and immediately life threatening. Immediately cover open wounds to the neck with an occlusive dressing to control bleeding and prevent air embolism. Manual stabilization of the c-spine may be necessary. </narrationText>
+		</resource>		
+		<resource resID="frame23" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>		
+		<resource resID="frame24" audio="[auto]">
+			<narrationText>The back of the neck houses the spinal cord and two large blood vessels. The spinal cord is protected by the bony cervical spine, but the spinal column at this point is poorly supported by musculature. Any patients with serious mechanism of injury or signs and symptoms suggesting damage to the bones of neck or to nerve conduction should be stabilized in the field by immobilization to prevent further injury during transport. </narrationText>
+		</resource>		
+		<resource resID="frame25" audio="[auto]">
+			<narrationText>Assess for sensation and motor ability in all four extremities both before immobilization and immediately following. Any tenderness to palpation or pain along the spine is reason for immobilization of the entire spinal column.</narrationText>
+		</resource>		
+		<resource resID="frame26" audio="[auto]">
+			<narrationText>Immobilization of the spine begins with manual in-line stabilization. Cervical collars decrease flexion-extension but do not completely immobilize the cervical spine. Manual stabilization is necessary until the head can be completely secured to an immobilization device, such as a long backboard.</narrationText>
+		</resource>		
+		<resource resID="frame27" audio="[auto]">
+			<narrationText>xxx</narrationText>
+		</resource>		
+		<resource resID="summary" audio="[auto]">
+			<narrationText>The vital structures in the head and neck are extremely vulnerable to traumatic injury. Airway control, ventilatory support, control of spinal movement, and management of bleeding and perfusion reduce the risk of secondary injury. EMS responders must react immediately to reduce morbidity and mortality.</narrationText>
+		</resource>		
+	</resources>
+	
+</lesson>

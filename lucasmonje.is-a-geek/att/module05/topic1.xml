@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson label="" title="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.elml.ch  validate.xsd" xmlns="http://www.elml.ch" navTitle="">
+	<configurations>
+		<configuration confID="navigation">
+			<!--
+			clickOnScreen values: none, moveNext, moveNextElementOnly
+			blinkTime values: An whole value. It represent the milliseconds that next button blink. 
+			 -->
+			<blinkTime>4000</blinkTime>
+			<clickOnScreen>none</clickOnScreen>
+			<captureKey>false</captureKey>
+			<fullscreen>false</fullscreen>
+			<!--
+			documentPrintable = link to print.doc (button print)
+			 -->
+			<documentPrintable><![CDATA[module_1.pdf]]></documentPrintable>
+			<courseTitle>Assessment and Treatment of Trauma Precourse Module</courseTitle>
+			<notesUrl>notes.htm</notesUrl>
+           	<glossaryUrl>glossary.html</glossaryUrl>
+		</configuration>
+	</configurations>
+	
+	<entry>
+	</entry>
+	
+	<unit>
+	<learningObject title="Welcome" resID="splash" navTitle="" frameNr="1" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1></headerTitle1>
+				
+					<multimedia src="module05/swf/splash.swf" conn_name="splash"/>
+					<hidden incremental="splash" moveToPage="autoload" resID="splash" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Introduction" resID="introduction" navTitle="" frameNr="2" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Introduction</headerTitle1>
+				
+					<multimedia src="module05/swf/introduction.swf" conn_name="introduction"/>
+					<hidden incremental="introduction" moveToPage="autoload" resID="introduction" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+	
+		<learningObject title="Anatomy of the Torso" resID="frame01" navTitle="" frameNr="3" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Anatomy of the Torso</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_01.swf" conn_name="s1"/>
+					<hidden incremental="s1" moveToPage="autoload" resID="frame01" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Check Your Understanding" resID="frame02" navTitle="" frameNr="4" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module05/swflo/l1_02.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Injury to the Chest" resID="frame03" navTitle="" frameNr="5" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Chest</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_03.swf" conn_name="s3"/>
+					<hidden incremental="s3" moveToPage="autoload" resID="frame03" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Assessment of Chest Injury" resID="frame04" navTitle="" frameNr="6" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Chest Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_04.swf" conn_name="s4"/>
+					<hidden incremental="s4" moveToPage="autoload" resID="frame04" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+	
+		<learningObject title="Work of Breathing" resID="frame05" navTitle="" frameNr="7" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Work of Breathing</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_05.swf" conn_name="s5"/>
+					<hidden incremental="s5" moveToPage="autoload" resID="frame05" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Additional Assessment" resID="frame06" navTitle="" frameNr="8" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Additional Assessment</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_06.swf" conn_name="s6"/>
+					<hidden incremental="s6" moveToPage="autoload" resID="frame06" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment of Chest Injury" resID="frame07" navTitle="" frameNr="9" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Chest Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_07.swf" conn_name="s7"/>
+					<hidden incremental="s7" moveToPage="autoload" resID="frame07" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Treatment of Chest Injury, Continued" resID="frame08" navTitle="" frameNr="10" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Chest Injury, Continued</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_08.swf" conn_name="s8"/>
+					<hidden incremental="s8" moveToPage="autoload" resID="frame08" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Injury to the Abdomen" resID="frame09" navTitle="" frameNr="11" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Abdomen</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_09.swf" conn_name="s9"/>
+					<hidden incremental="s9" moveToPage="autoload" resID="frame09" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of Abdominal Injury" resID="frame10" navTitle="" frameNr="12" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Abdominal Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_10.swf" conn_name="s10"/>
+					<hidden incremental="s10" moveToPage="autoload" resID="frame10" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of Abdominal Injury, Continued" resID="frame11" navTitle="" frameNr="13" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Abdominal Injury, Continued</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_11.swf" conn_name="s11"/>
+					<hidden incremental="s11" moveToPage="autoload" resID="frame11" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Check Your Understanding" resID="frame12" navTitle="" frameNr="14" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module05/swflo/l1_12.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		<learningObject title="Treatment of Abdominal Injury" resID="frame13" navTitle="" frameNr="15" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Abdominal Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_13.swf" conn_name="s13"/>
+					<hidden incremental="s13" moveToPage="autoload" resID="frame13" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Injury to the Pelvic Organs" resID="frame14" navTitle="" frameNr="16" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Pelvic Organs</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_14.swf" conn_name="s14"/>
+					<hidden incremental="s14" moveToPage="autoload" resID="frame14" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		<learningObject title="Assessment of the Pelvis" resID="frame15" navTitle="" frameNr="17" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of the Pelvis</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_15.swf" conn_name="s15"/>
+					<hidden incremental="s15" moveToPage="autoload" resID="frame15" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		
+		
+		<learningObject title="Treatment of Pelvic Injury" resID="frame16" navTitle="" frameNr="18" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Pelvic Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_16.swf" conn_name="s16"/>
+					<hidden incremental="s16" moveToPage="autoload" resID="frame16" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Injury to the Spine" resID="frame17" navTitle="" frameNr="19" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Injury to the Spine</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_17.swf" conn_name="s17"/>
+					<hidden incremental="s17" moveToPage="autoload" resID="frame17" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Assessment of Spinal Injury" resID="frame18" navTitle="" frameNr="20" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Assessment of Spinal Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_18.swf" conn_name="s18"/>
+					<hidden incremental="s18" moveToPage="autoload" resID="frame18" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		
+		
+		<learningObject title="Treatment of Spinal Injury" resID="frame19" navTitle="" frameNr="21" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Treatment of Spinal Injury</headerTitle1>
+				
+					<multimedia src="module05/swf/slide_19.swf" conn_name="s19"/>
+					<hidden incremental="s19" moveToPage="autoload" resID="frame19" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Check Your Understanding" resID="frame20" navTitle="" frameNr="22" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module05/swflo/l1_20.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		
+		
+		<learningObject title="Summary" navTitle="Summary" frameNr="23" resID="summary" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="moveNextElementOnly">
+			<clarify>
+				<headerTitle1>Lesson Summary</headerTitle1>
+				<multimedia src="module05/swf/summary.swf" conn_name="s21"/>
+					<hidden incremental="s21" moveToPage="autoload" resID="summary" visibleOnStart="yes"/>
+</clarify>
+		</learningObject>
+		
+		
+	</unit>
+	
+	<glossary>
+		
+	</glossary>
+	
+	<bibliography visible="none" sorting="byAuthor">
+		<book bibID="" author="" publicationYear="" title="" publisher="" publicationPlace="" />
+	</bibliography>
+	
+	<additionalInformation>
+		<info infoID="">
+			<clarify>
+				<headerTitle2> </headerTitle2>
+				<paragraph> </paragraph>
+			</clarify>
+		</info>
+	</additionalInformation>
+	<resources>
+		<resource resID="splash" audio="[auto]"/>
+		<resource resID="introduction" audio="[auto]"/>
+		<resource resID="objectives" audio="[auto]"/>
+		<resource resID="frame01" audio="[auto]"/>
+		<resource resID="frame02" audio="[auto]"/>
+		<resource resID="frame03" audio="[auto]"/>
+		<resource resID="frame04" audio="[auto]"/>
+		<resource resID="frame05" audio="[auto]"/>
+		<resource resID="frame06" audio="[auto]"/>
+		<resource resID="frame07" audio="[auto]"/>
+		<resource resID="frame08" audio="[auto]"/>
+		<resource resID="frame10" audio="[auto]"/>
+		<resource resID="frame11" audio="[auto]"/>
+		<resource resID="frame12" audio="[auto]"/>
+		<resource resID="frame13" audio="[auto]"/>
+		<resource resID="frame14" audio="[auto]"/>
+		<resource resID="frame15" audio="[auto]"/>
+		<resource resID="frame16" audio="[auto]"/>
+		<resource resID="frame17" audio="[auto]"/>
+		<resource resID="frame18" audio="[auto]"/>
+		<resource resID="frame19" audio="[auto]"/>
+		<resource resID="frame20" audio="[auto]"/>
+		<resource resID="frame21" audio="[auto]"/>
+		<resource resID="frame22" audio="[auto]"/>
+		<resource resID="frame23" audio="[auto]"/>
+		<resource resID="summary" audio="[auto]"/>
+		<resource resID="splash"  audio="[auto]">
+		
+			<narrationText>Welcome to Module 5: Trauma to the Torso.</narrationText>
+		</resource>  
+		<resource resID="introduction" audio="[auto]">
+			<narrationText>The torso encompasses the chest, abdomen, and pelvis, and it contains all the vital organs responsible for breathing, circulation, digestion, filtration, and reproduction.</narrationText>
+		</resource>
+		<resource resID="objectives" audio="[auto]">
+			<narrationText>xxx</narrationText>
+		</resource>
+		<resource resID="frame01" audio="[auto]">
+			<narrationText>The chest and the abdomen are divided by the diaphragm, a thin muscle responsible for respirations. The abdomen is divided into the peritoneal, retroperitoneal, and pubic regions, and contains both solid and hollow organs. Solid and hollow organs react differently under different types of trauma. The thoracic spine consists of 12 vertebrae; each vertebral body connects to a pair of ribs, and the column is encased in a protective muscle. </narrationText>
+		</resource>
+		<resource resID="frame02" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>
+		<resource resID="frame03" audio="[auto]">
+			<narrationText>Injuries to the chest often affect the patient’s ability to breathe. An external injury, such as rib fracture or open chest wound, will impact the movement of air into and out of the lungs. Internal injuries include contusions on the lung itself and pnemothorax and hemothorax. In any major trauma to the chest, the heart and great vessels may be injured. </narrationText>
+		</resource>
+		<resource resID="frame04" audio="[auto]">
+			<narrationText>All physical examinations start with visual inspection. To examine the chest, you will need to expose it enough to inspect the skin for signs of trauma. Open wounds should be observed for air movement through the wound (also known as a sucking chest wound or open pneumothorax). You should also check for symmetry and any abnormal motion of the chest, such as paradoxical motion. </narrationText>
+		</resource>
+		<resource resID="frame05" audio="[auto]">
+			<narrationText>In addition to visual inspection for wounds, increased work of breathing is a key sign of respiratory and airway problems. Some injuries may not be obvious by inspection or increased work of breathing; they may only be found by palpation or auscultation. Many of these more subtle injuries can lead to rapid patient decline and must be found early in their progression to ensure positive patient outcome.</narrationText>
+		</resource>
+		<resource resID="frame06" audio="[auto]">
+			<narrationText>The use of monitoring devices such as 12-lead ECG, pulse oximetry, and capnography can be helpful if the patient is otherwise stable. Associated signs of chest injury, such as JVD, should also be routinely assessed. </narrationText>
+		</resource>
+		<resource resID="frame07" audio="[auto]">
+			<narrationText>The initial treatment of chest injuries involves closing open chest wounds and ensuring adequate minute ventilation. </narrationText>
+		</resource>
+		<resource resID="frame08" audio="[auto]">
+			<narrationText>Arrhythmias should be treated according to standard ACLS algorithms. Certain chest injuries necessitate special treatment protocols. Once you have determined that a tension pneumothorax is present, decompression of trapped air is indicated. In patients with tracheobronchial tears, avoid placing an airway above the tear to provide positive-pressure ventilations, because it may worsen the condition. Positive-pressure ventilation in patients with diaphragmatic tears relieves the muscular activity needed by the diaphragm to create negative pressures in the chest.</narrationText>
+		</resource>
+		<resource resID="frame09" audio="[auto]">
+			<narrationText>Injury to solid organs can cause significant internal bleeding, whereas injury to hollow organs can cause leakage of contents, leading to peritonitis.</narrationText>
+		</resource>
+		<resource resID="frame10" audio="[auto]">
+			<narrationText>Repeated abdominal examinations are the key to discovering a patient’s worsening condition. Periumbilical bruising, known as Cullen’s sign, and bruising over the flank, called Grey Turner’s sign, are delayed signs of intra-abdominal bleeding. Rigidity of the abdominal wall may also indicate peritoneal irritation from blood or leakage of GI contents.</narrationText>
+		</resource>
+		<resource resID="frame11" audio="[auto]">
+			<narrationText>Patients who have signs of shock with no obvious cause should be assumed to be bleeding into their torso. Auscultation of the abdomen has limited usefulness in the acutely injured patient; the process is time-consuming and bowel sounds may be slower than normal due to release of catecholamines following trauma. Eviscerations to the abdominal cavity allow the internal organs to be exposed outside of the body.</narrationText>
+		</resource>		
+		<resource resID="frame12" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>		
+		<resource resID="frame13" audio="[auto]">
+			<narrationText>Internal bleeding is a surgical problem necessitating expedited transport. Eviscerations should be covered with saline-moistened dressings and an occlusive dressing to prevent evaporative cooling. </narrationText>
+		</resource>		
+		<resource resID="frame14" audio="[auto]">
+			<narrationText>The urinary system, the reproductive system, the GI system, and neurovascular components are housed within the pelvis. The pelvic organs are at risk of injury from bony fragments following pelvic fracture. Externally, pelvic fractures can cause severe bruising and swelling. Pelvic fractures may also damage the iliac arteries or the veins of the pelvis and cause catastrophic blood loss.</narrationText>
+		</resource>		
+		<resource resID="frame15" audio="[auto]">
+			<narrationText>Assessment of the pelvis includes visual examination for bleeding and soft-tissue injury, but most EMS systems depend on palpation for crepitus and instability of the pelvic ring. If instability of the pelvic ring is found, any further movement should be stopped immediately to prevent the tearing of a blood vessel that may not yet be damaged. </narrationText>
+		</resource>		
+		<resource resID="frame16" audio="[auto]">
+			<narrationText>Splint the fractured pelvis to minimize blood loss. The traditional splint is a long backboard with adequate padding, although several commercial devices are available specific to the treatment of this type of injury. Standard treatment of soft-tissue injuries includes the application of cold packs when indicated and treatment of shock with fluid resuscitation. Treatment of genital injuries is based on symptoms. Care for the physical trauma but do not forget that psychological support is also important for patients who have experienced a sexual abuse or assault.</narrationText>
+		</resource>		
+		<resource resID="frame17" audio="[auto]">
+			<narrationText>Injury to the spine occurs most often with blunt trauma. Patients who wear the lap portion of their seatbelt without the shoulder strap often experience lumbar spine injury. The dermatome at the top of the shoulders is C3, C4; the dermatome at the nipple line is T4; and the dermatome at the umbilicus is T10. Using these dermatome landmarks during the assessment of a spinal cord injury can help to focus care and immobilization efforts. Current field treatment includes immobilization for transport. It is important to keep in mind that spinal injuries may become worse when improper care is provided.</narrationText>
+		</resource>		
+		<resource resID="frame18" audio="[auto]">
+			<narrationText>Inspection requires rolling the patient and removing clothing. Palpation should also be done at this time. Patient complaints of pain, numbness or tingling, or loss of function should be noted. Assessment of neurovascular function prior to manipulation and after immobilization should be noted on the patient care report. </narrationText>
+		</resource>		
+		<resource resID="frame19" audio="[auto]">
+			<narrationText>To properly immobilize the spine, the entire length must be immobilized, along with the head and pelvis. Adequate padding under the small of the back, under the knees, and along the whole length of the spine is necessary to prevent injury from the immobilization device.</narrationText>
+		</resource>		
+		<resource resID="frame20" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>		
+		
+		<resource resID="summary" audio="[auto]">
+			<narrationText>Torso injuries can be some of the most rapidly life-threatening injuries, and yet they may be difficult to locate. Careful assessment and rapid intervention can be lifesaving.</narrationText>
+		</resource>		
+	</resources>
+	
+</lesson>

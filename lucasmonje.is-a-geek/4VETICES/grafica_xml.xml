@@ -1,0 +1,15 @@
+<?xml version="1.0" ?> 
+<grafica>
+	<grafica name="SAW" image="grafica_01" titulo="SAW" fecha="Agosto.2007" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica | "  />
+	<grafica name="Maya Ilustrator" image="grafica_02" titulo="Maya Ilustrator" fecha="Abril.2007" tecno="TECNOLOGIAS: illustrator" descrip= "| grafica + mayado| " /> 
+	<grafica name="Packaging Cabsha" image="grafica_03" titulo="Packaging alfajor cabsha"  fecha="septiembre.2007" tecno="TECNOLOGIAS: Photoshop, illustrator" descrip= "| grafica + Packaging | " /> 
+	<grafica name="Cafetera Atma" image="grafica_04" titulo="Cafetera 3d Atma" fecha="Marzo.2007" tecno="TECNOLOGIAS: 3D MAX, illustrator" descrip= "| desarrollo 3D |" /> 
+	<grafica name="La RAZON" image="grafica_05" titulo="Publicidad La RAZON" fecha="Agosto.2006" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica | "  /> 
+	<grafica name="The Cure" image="grafica_06" titulo="The Cure" fecha="Agosto.2007" tecno="TECNOLOGIAS: Photoshop, illustrator" descrip= "| grafica libro cd |" />  
+	<grafica name="Diseño para editorial" image="grafica_07" titulo="Diseño para editorial" fecha="Agosto.2005" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica |" /> 
+	<grafica name="Diseño para editorial" image="grafica_08" titulo="Diseño para editorial" fecha="Agosto.2005" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica |" />
+	<grafica name="Sistema grafico" image="grafica_09" titulo="Sistema grafico" fecha="Diciembre.2004" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica | " />
+	<grafica name="Sistema grafico" image="grafica_10" titulo="Sistema grafico" fecha="Diciembre.2004" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica | " />
+	<grafica name="7 Pecados Capitales" image="grafica_11" titulo="7 Pecados Capitales" fecha="Mayo.2008" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica + fotografia |"  />
+	<grafica name="7 Pecados Capitales" image="grafica_12" titulo="7 Pecados Capitales" fecha="Mayo.2008" tecno="TECNOLOGIAS: Photoshop, illutrator" descrip= "| grafica + fotografia |" /> 
+</grafica>

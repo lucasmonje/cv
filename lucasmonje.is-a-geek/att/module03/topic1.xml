@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson label="" title="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.elml.ch  validate.xsd" xmlns="http://www.elml.ch" navTitle="">
+	<configurations>
+		<configuration confID="navigation">
+			<!--
+			clickOnScreen values: none, moveNext, moveNextElementOnly
+			blinkTime values: An whole value. It represent the milliseconds that next button blink. 
+			 -->
+			<blinkTime>4000</blinkTime>
+			<clickOnScreen>none</clickOnScreen>
+			<captureKey>false</captureKey>
+			<fullscreen>false</fullscreen>
+			<!--
+			documentPrintable = link to print.doc (button print)
+			 -->
+			<documentPrintable><![CDATA[module_1.pdf]]></documentPrintable>
+			<courseTitle>Assessment and Treatment of Trauma Precourse Module</courseTitle>
+			<notesUrl>notes.htm</notesUrl>
+           	<glossaryUrl>glossary.html</glossaryUrl>
+		</configuration>
+	</configurations>
+	
+	<entry>
+	</entry>
+	
+	<unit>
+	<learningObject title="Welcome" resID="splash" navTitle="" frameNr="1" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1></headerTitle1>
+				
+					<multimedia src="module03/swf/splash.swf" conn_name="splash"/>
+					<hidden incremental="splash" moveToPage="autoload" resID="splash" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Introduction" resID="introduction" navTitle="" frameNr="2" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Introduction</headerTitle1>
+				
+					<multimedia src="module03/swf/introduction.swf" conn_name="introduction"/>
+					<hidden incremental="introduction" moveToPage="autoload" resID="introduction" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+	
+		<learningObject title="Definition" resID="frame01" navTitle="" frameNr="3" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Definition</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_01.swf" conn_name="s1"/>
+					<hidden incremental="s1" moveToPage="autoload" resID="frame01" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Aerobic Metabolism" resID="frame02" navTitle="" frameNr="4" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Aerobic Metabolism</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_02.swf" conn_name="s2"/>
+					<hidden incremental="s2" moveToPage="autoload" resID="frame02" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Anaerobic Metabolism" resID="frame03" navTitle="" frameNr="5" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Anaerobic Metabolism</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_03.swf" conn_name="s3"/>
+					<hidden incremental="s3" moveToPage="autoload" resID="frame03" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Body’s Response to Shock" resID="frame04" navTitle="" frameNr="6" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Body’s Response to Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_04.swf" conn_name="s4"/>
+					<hidden incremental="s4" moveToPage="autoload" resID="frame04" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+	
+		<learningObject title="Check Your Understanding" resID="frame05" navTitle="" frameNr="7" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module03/swflo/l1_05.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+
+		<learningObject title="Types of Shock" resID="frame06" navTitle="" frameNr="8" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Types of Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_06.swf" conn_name="s6"/>
+					<hidden incremental="s6" moveToPage="autoload" resID="frame06" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Signs and Symptoms" resID="frame07" navTitle="" frameNr="9" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Signs and Symptoms</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_07.swf" conn_name="s7"/>
+					<hidden incremental="s7" moveToPage="autoload" resID="frame07" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Hemorrhagic Shock" resID="frame08" navTitle="" frameNr="10" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Hemorrhagic Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_08.swf" conn_name="s8"/>
+					<hidden incremental="s8" moveToPage="autoload" resID="frame08" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Distributive Shock" resID="frame09" navTitle="" frameNr="11" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Distributive Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_09.swf" conn_name="s9"/>
+					<hidden incremental="s9" moveToPage="autoload" resID="frame09" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Cardiogenic Shock" resID="frame10" navTitle="" frameNr="12" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Cardiogenic Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_10.swf" conn_name="s10"/>
+					<hidden incremental="s10" moveToPage="autoload" resID="frame10" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Obstructive Shock" resID="frame11" navTitle="" frameNr="13" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Obstructive Shock</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_11.swf" conn_name="s11"/>
+					<hidden incremental="s11" moveToPage="autoload" resID="frame11" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Obstructive Shock, Continued" resID="frame12" navTitle="" frameNr="14" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Obstructive Shock, Continued</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_12.swf" conn_name="s12"/>
+					<hidden incremental="s12" moveToPage="autoload" resID="frame12" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		<learningObject title="Check Your Understanding" resID="frame13" navTitle="" frameNr="15" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Check Your Understanding</headerTitle1>
+				
+					<multimedia src="swflo/learning_scenario.swf?xmlfile=module03/swflo/l1_13.xml" conn_name="activity" reloadable="true"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Special Considerations" resID="frame14" navTitle="" frameNr="16" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="" mediaRef="" activityRef="" infoIDRef="">
+			<clarify>
+				<headerTitle1>Special Considerations</headerTitle1>
+				
+					<multimedia src="module03/swf/slide_14.swf" conn_name="s14"/>
+					<hidden incremental="s14" moveToPage="autoload" resID="frame14" visibleOnStart="yes"/>
+				
+			</clarify>
+		</learningObject>
+		
+		<learningObject title="Summary" navTitle="Summary" frameNr="17" resID="summary" subchapterName="[repeat]" subchapterNameInMenu="false" continuousPlay="moveNextElementOnly">
+			<clarify>
+				<headerTitle1>Lesson Summary</headerTitle1>
+				<multimedia src="module03/swf/summary.swf" conn_name="s15"/>
+					<hidden incremental="s15" moveToPage="autoload" resID="summary" visibleOnStart="yes"/>
+</clarify>
+		</learningObject>
+		
+		
+	</unit>
+	
+	<glossary>
+		
+	</glossary>
+	
+	<bibliography visible="none" sorting="byAuthor">
+		<book bibID="" author="" publicationYear="" title="" publisher="" publicationPlace="" />
+	</bibliography>
+	
+	<additionalInformation>
+		<info infoID="">
+			<clarify>
+				<headerTitle2> </headerTitle2>
+				<paragraph> </paragraph>
+			</clarify>
+		</info>
+	</additionalInformation>
+	<resources>
+		<resource resID="splash" audio="[auto]"/>
+		<resource resID="introduction" audio="[auto]"/>
+		<resource resID="objectives" audio="[auto]"/>
+		<resource resID="frame01" audio="[auto]"/>
+		<resource resID="frame02" audio="[auto]"/>
+		<resource resID="frame03" audio="[auto]"/>
+		<resource resID="frame04" audio="[auto]"/>
+		<resource resID="frame05" audio="[auto]"/>
+		<resource resID="frame06" audio="[auto]"/>
+		<resource resID="frame07" audio="[auto]"/>
+		<resource resID="frame08" audio="[auto]"/>
+		<resource resID="frame10" audio="[auto]"/>
+		<resource resID="frame11" audio="[auto]"/>
+		<resource resID="frame12" audio="[auto]"/>
+		<resource resID="frame13" audio="[auto]"/>
+		<resource resID="frame14" audio="[auto]"/>
+		<resource resID="frame15" audio="[auto]"/>
+		<resource resID="frame16" audio="[auto]"/>
+		<resource resID="frame17" audio="[auto]"/>
+		<resource resID="frame18" audio="[auto]"/>
+		<resource resID="frame19" audio="[auto]"/>
+		<resource resID="frame20" audio="[auto]"/>
+		<resource resID="frame21" audio="[auto]"/>
+		<resource resID="frame22" audio="[auto]"/>
+		<resource resID="frame23" audio="[auto]"/>
+		<resource resID="summary" audio="[auto]"/>
+		<resource resID="splash"  audio="[auto]">
+		
+			<narrationText>Welcome to Module 3: Shock and Fluid Resuscitation.</narrationText>
+		</resource>  
+		<resource resID="introduction" audio="[auto]">
+			<narrationText>Shock is a common pathway to death from many causes, including trauma. Understanding, recognizing, preventing, and treating shock are key to the ultimate outcome for traumatized patients.</narrationText>
+		</resource>
+		<resource resID="objectives" audio="[auto]">
+			<narrationText>xxx</narrationText>
+		</resource>
+		<resource resID="frame01" audio="[auto]">
+			<narrationText>Cells need a constant and uninterrupted supply of blood. If the oxygen and glucose in the blood do not reach the cells, those cells start to die. The process through which the body tries to maintain blood flow to the most sensitive cells during an emergency is called shock.</narrationText>
+		</resource>
+		<resource resID="frame02" audio="[auto]">
+			<narrationText>When there is normal and adequate blood flow to cells, the cells store energy in the form of ATP very efficiently, giving off very little waste in the form of carbon dioxide and water.</narrationText>
+		</resource>
+		<resource resID="frame03" audio="[auto]">
+			<narrationText>When the supply of oxygen is restricted, the cells turn to a very inefficient method of producing ATP called anaerobic metabolism. Anaerobic metabolism produces less ATP for each molecule of glucose used and produces organic acids that the body then has to deal with.</narrationText>
+		</resource>
+		<resource resID="frame04" audio="[auto]">
+			<narrationText>When anaerobic metabolism produces acids, the respiratory system speeds up to excrete more carbon dioxide (which is also an acid). The heart rate increases, the blood vessels constrict, and the kidneys decrease their output—all in an attempt to bring more blood to oxygen-starved cells.</narrationText>
+		</resource>
+		<resource resID="frame05" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>
+		<resource resID="frame06" audio="[auto]">
+			<narrationText>Lack of adequate blood flow to cells may occur for several reasons. These causes can be classified into four groups.</narrationText>
+		</resource>
+		<resource resID="frame07" audio="[auto]">
+			<narrationText>Shock is progressive. The earliest stage—compensated shock—is characterized by an elevated respiratory rate and pulse, pale and clammy skin, and decreased urine production. Reduced blood flow to the brain makes patients restless and agitated. As shock worsens, the compensatory actions of the body fail and shock progresses. The principal sign of progressive, or uncompensated, shock is decreased blood pressure.</narrationText>
+		</resource>
+		<resource resID="frame08" audio="[auto]">
+			<narrationText>Hemorrhagic shock is a type of hypovolemia caused by blood loss. It is by far the most common cause of shock in patients suffering trauma. The first priority in preventing hemorrhagic shock from worsening is to stop the bleeding. If the bleeding is external, then apply direct pressure. If direct pressure on the bleeding site is ineffective and the site is on an extremity, then apply a tourniquet. In case of internal bleeding, surgery—and, therefore, rapid transport to a trauma center—is necessary. Transport for hemorrhagic shock to a trauma center should not be delayed to start an IV if only crystalloid fluids are available. Crystalloid fluids cannot carry the needed oxygen, and raising the patient’s blood pressure above 90 systolic with fluids may simply increase the blood loss through a wound that cannot be controlled.</narrationText>
+		</resource>
+		<resource resID="frame09" audio="[auto]">
+			<narrationText>Distributive shock occurs when the diameters of blood vessels are allowed to dilate, making the overall size of the vascular system too large to maintain pressure. Loss of neurologic control from spinal injury, anaphylaxis, or infection can cause this type of shock.</narrationText>
+		</resource>
+		<resource resID="frame10" audio="[auto]">
+			<narrationText>Shock caused by reduction of cardiac output is called cardiogenic shock. In trauma, this condition can arise when a direct blow to the heart damages cardiac muscle or interrupts the electrical control system of the heart.</narrationText>
+		</resource>
+		<resource resID="frame11" audio="[auto]">
+			<narrationText>Obstructive causes of shock are those not directly associated with loss of fluid, pump failure, or vessel dilation. Obstructive shock occurs when blood flow through the heart is obstructed, kinking of the blood flow through major vessels of the chest occurs, or the heart does not refill due to the presence of blood or fluid in the pericardial sac. Two of the most common examples of obstructive shock causes in trauma are tension pneumothorax and cardiac tamponade. A tension pneumothorax is caused by damage to the lung tissue that allows air normally held within the lung to escape into the chest cavity. The vena cava loses its ability to stay fully expanded and the mechanical compression of the vessel leads to reduced preload for the heart. Decompression of the chest is usually the only action that can prevent eventual death.</narrationText>
+		</resource>		
+		<resource resID="frame12" audio="[auto]">
+			<narrationText>Cardiac tamponade is another traumatic condition that leads to obstructive shock. It is caused by blunt or penetrating trauma and can progress rapidly. Blood leaks into the pericardium, causing an accumulation of blood within the pericardial sac and ultimately compression of the heart. Continued pressure within the pericardial sac obstructs the flow of blood into the heart, resulting in decreased outflow from the heart. Pericardiocentesis— penetrating the pericardium with a needle and withdrawing the accumulated blood—is the only practical prehospital approach, although it is rarely performed. The only definitive treatment is surgery.</narrationText>
+		</resource>		
+		<resource resID="frame13" audio="[auto]">
+			<narrationText>Test your knowledge of this module by completing this quick quiz.</narrationText>
+		</resource>		
+		<resource resID="frame14" audio="[auto]">
+			<narrationText>How shock presents may depend on the patient’s age or underlying conditions. Often these underlying conditions may change the duration of compensated shock, causing patients to look better then they are to the untrained eye. When these patients decompensate, they often do so suddenly and precipitously.</narrationText>
+		</resource>		
+		
+		<resource resID="summary" audio="[auto]">
+			<narrationText>Shock has been described as “staged death” and “the rude unhinging of life.” It is the common pathway for death among trauma patients. As shock worsens, it causes its own process to accelerate. Thus, the only chance to save the patient is to catch shock early and to stop it early. </narrationText>
+		</resource>		
+	</resources>
+	
+</lesson>
