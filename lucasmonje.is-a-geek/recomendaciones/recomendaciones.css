@@ -1,4 +1,4 @@
-			html { background-image:url(../images/bg.jpg);background-color:#E6E6E6;background-repeat:repeat;}
+			html { background-image:url(../assets/images/bg.jpg);background-color:#E6E6E6;background-repeat:repeat;}
 			body {height:100%;overflow:hidden;padding-top:10px;padding-bottom:30px;padding-left:30px;padding-right:30px; background-color:rgba(255,255,255,0.5);}
 			#dimage {position:absolute;top:87px;left:58px;width:94px;height:94px;}
 			#image {width:94px;height:94px;}
