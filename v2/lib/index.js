@@ -151,57 +151,43 @@ $(document).ready(function() {
 	 *  Open manually
 	 */
 	
-
+	var cafemania = [
+		{
+			href : 'http://farm6.staticflickr.com/5323/10040596633_81c83dbc19_o.jpg',
+			title : 'CafeMania'
+		}, {
+			href : 'http://farm4.staticflickr.com/3757/10040595093_175af65ee8_o.jpg',
+			title : 'CafeMania'
+		}, {
+			href : 'http://farm6.staticflickr.com/5538/10040497365_b2f141f79f_o.jpg',
+			title : 'CafeMania'
+		}, {
+			href : 'http://farm3.staticflickr.com/2810/10040457984_e7962059dd_o.jpg',
+			title : 'CafeMania'
+		}
+	];
     $("#cafemania").click(function() {
-		$.fancybox.open([
-			{
-				href : 'images/cafemania/01large.jpg',
-				title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/02large.jpg',
-				title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/03large.jpg',
-                title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/04large.jpg',
-                title : 'CafeMania'
-			}
-		]);
+		$.fancybox.open(cafemania);
 	});
     $("#cafemania2").click(function() {
-		$.fancybox.open([
-			{
-				href : 'images/cafemania/01large.jpg',
-				title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/02large.jpg',
-				title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/03large.jpg',
-                title : 'CafeMania'
-			}, {
-				href : 'images/cafemania/04large.jpg',
-                title : 'CafeMania'
-			}
-		]);
+		$.fancybox.open(cafemania);
 	});
     $("#findandclimb").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/findandclimb/01large.jpg',
+				href : 'http://farm6.staticflickr.com/5507/10040456114_150e1a7de7_o.jpg',
 				title : 'Find and Climb'
 			}, {
-				href : 'images/findandclimb/02large.jpg',
+				href : 'http://farm3.staticflickr.com/2819/10040593183_d0691801a0_o.jpg',
 				title : 'Find and Climb'
 			}, {
-				href : 'images/findandclimb/03large.jpg',
+				href : 'http://farm3.staticflickr.com/2805/10040511256_9a25c67639_o.jpg',
 				title : 'Find and Climb'
 			}, {
-				href : 'images/findandclimb/04large.jpg',
+				href : 'http://farm8.staticflickr.com/7309/10040495405_7df2429e20_o.jpg',
 				title : 'Find and Climb'
 			}, {
-				href : 'images/findandclimb/05large.jpg',
+				href : 'http://farm3.staticflickr.com/2806/10040459184_3caf5803b1_o.jpg',
 				title : 'Find and Climb'
 			}
 		]);
@@ -209,16 +195,16 @@ $(document).ready(function() {
     $("#wordshow").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/wordshow/01large.jpg',
+				href : 'http://farm8.staticflickr.com/7395/10040508206_94252d48da_o.jpg',
 				title : 'Word Show'
 			}, {
-				href : 'images/wordshow/02large.jpg',
+				href : 'http://farm8.staticflickr.com/7427/10040492565_ec80640208_o.jpg',
 				title : 'Word Show'
 			}, {
-				href : 'images/wordshow/03large.jpg',
+				href : 'http://farm4.staticflickr.com/3716/10040508066_57ccab34d2_o.jpg',
 				title : 'Word Show'
 			}, {
-				href : 'images/wordshow/04large.jpg',
+				href : 'http://farm8.staticflickr.com/7445/10040508036_6a94d2ee93_o.jpg',
 				title : 'Word Show'
 			}
 		]);
@@ -226,57 +212,61 @@ $(document).ready(function() {
     $("#worldmysteries").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/worldmysteries/01large.jpg',
-				title : 'Word Show'
+				href : 'http://farm8.staticflickr.com/7416/10040589713_755d590b93_o.jpg',
+				title : 'World Mysteries'
 			}, {
-				href : 'images/worldmysteries/02large.jpg',
-				title : 'Word Show'
+				href : 'http://farm8.staticflickr.com/7409/10040452444_ba3ac322f7_o.jpg',
+				title : 'World Mysteries'
 			}, {
-				href : 'images/worldmysteries/03large.jpg',
-				title : 'Word Show'
+				href : 'http://farm4.staticflickr.com/3833/10040451774_fc5f93a07a_o.jpg',
+				title : 'World Mysteries'
 			}
 		]);
     });
      $("#fazendamobile").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/fazendamobile/01large.jpg',
+				href : 'http://farm6.staticflickr.com/5331/10040496835_0e9c260989_o.jpg',
 				title : 'Top Farm'
 			}, {
-				href : 'images/fazendamobile/02large.jpg',
+				href : 'http://farm4.staticflickr.com/3815/10040457174_c56d3d74fe_o.jpg',
 				title : 'Top Farm'
 			}, {
-				href : 'images/fazendamobile/03large.jpg',
+				href : 'http://farm3.staticflickr.com/2894/10040456784_95aab5825f_o.jpg',
 				title : 'Top Farm'
 			}, {
-				href : 'images/fazendamobile/04large.jpg',
+				href : 'http://farm8.staticflickr.com/7319/10040496215_2d4922ddc8_o.jpg',
 				title : 'Top Farm'
 			}, {
-				href : 'images/fazendamobile/05large.jpg',
+				href : 'http://farm6.staticflickr.com/5446/10040511976_7b249d6786_o.jpg',
 				title : 'Top Farm'
 			}, {
-				href : 'images/fazendamobile/06large.jpg',
+				href : 'http://farm6.staticflickr.com/5482/10040593253_742782dd7a_o.jpg',
+				title : 'Top Farm'
+			}, {
+				href : 'http://farm8.staticflickr.com/7428/10040511756_3ff6d4cfa7_o.jpg',
 				title : 'Top Farm'
 			}
+			
 		]);
     });
     
      $("#logos").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/logos/01large.jpg',
+				href : 'http://farm3.staticflickr.com/2812/10040510306_8f7f21da16_o.jpg',
 				title : 'Logos'
 			}, {
-				href : 'images/logos/02large.jpg',
+				href : 'http://farm3.staticflickr.com/2845/10040591953_bd1b54167c_o.jpg',
 				title : 'Logos'
 			}, {
-				href : 'images/logos/03large.jpg',
+				href : 'http://farm4.staticflickr.com/3752/10040591873_7e63c94478_o.jpg',
 				title : 'Logos'
 			}, {
-				href : 'images/logos/04large.jpg',
+				href : 'http://farm4.staticflickr.com/3733/10040494285_aa861829aa_o.jpg',
 				title : 'Logos'
 			}, {
-				href : 'images/logos/05large.jpg',
+				href : 'http://farm6.staticflickr.com/5494/10040509936_d2de950642_o.jpg',
 				title : 'Logos'
 			}
 		]);
@@ -285,34 +275,111 @@ $(document).ready(function() {
     $("#retoque").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/retoque/01large.jpg',
+				href : 'http://farm3.staticflickr.com/2841/10040514216_4becdcccaf_o.jpg',
 				title : 'Retoque Fotográfico para la radio de Kosiuko'
 			}, {
-				href : 'images/retoque/02large.jpg',
+				href : 'http://farm8.staticflickr.com/7382/10040453544_39392b1b89_o.jpg',
 				title : 'Retoque Fotográfico para la radio de Kosiuko'
 			}, {
-				href : 'images/retoque/03large.jpg',
+				href : 'http://farm4.staticflickr.com/3809/10040453354_3ed8b84e9b_o.jpg',
 				title : 'Retoque Fotográfico para la radio de Kosiuko'
 			}
 		]);
     });
-    
+	
+	$("#knorrsabor").click(function() {
+		$.fancybox.open([
+			{
+				href : 'http://farm3.staticflickr.com/2857/10040510976_3cec420b0a_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {
+				href : 'http://farm8.staticflickr.com/7315/10040510896_f56c7390dc_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {				
+				href : 'http://farm8.staticflickr.com/7443/10040495035_dcaa544a28_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {				
+				href : 'http://farm4.staticflickr.com/3720/10040510676_18e925a30f_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {				
+				href : 'http://farm4.staticflickr.com/3739/10040510716_a746932c44_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {				
+				href : 'http://farm3.staticflickr.com/2893/10040455134_03bc015244_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {				
+				href : 'http://farm8.staticflickr.com/7397/10040494865_9bf9bd3021_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {
+				href : 'http://farm8.staticflickr.com/7436/10040592313_3c201ca28c_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {
+				href : 'http://farm4.staticflickr.com/3715/10040455044_8c620f41c5_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {
+				href : 'http://farm4.staticflickr.com/3676/10040510426_619196c189_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}, {
+				href : 'http://farm8.staticflickr.com/7304/10040510446_e21003d805_o.jpg',
+				title : 'Programación del sitio Knorrsabor.com'
+			}
+		]);
+    });
+	
     $("#lucianagomez").click(function() {
 		$.fancybox.open([
 			{
-				href : 'images/lucianagomez/01large.jpg',
+				href : 'http://farm8.staticflickr.com/7351/10040591523_0e171cbfb9_o.jpg',
 				title : 'Diseño y Programación del sitio de Luciana Gomez'
 			}, {
-				href : 'images/lucianagomez/02large.jpg',
+				href : 'http://farm8.staticflickr.com/7417/10040454344_5d7561b745_o.jpg',
 				title : 'Diseño y Programación del sitio de Luciana Gomez'
 			}, {
-				href : 'images/lucianagomez/03large.jpg',
+				href : 'http://farm8.staticflickr.com/7331/10040509386_60b7f083ed_o.jpg',
 				title : 'Diseño y Programación del sitio de Luciana Gomez'
 			}, {
-				href : 'images/lucianagomez/04large.jpg',
+				href : 'http://farm8.staticflickr.com/7422/10040453954_a484906007_o.jpg',
 				title : 'Diseño y Programación del sitio de Luciana Gomez'
 			}
 		]);
-    });   
+    });
+	$("#vaja").click(function() {
+		$.fancybox.open([
+			{
+				href : 'http://farm8.staticflickr.com/7289/10040590413_8fd2d25e4e_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}, {
+				href : 'http://farm3.staticflickr.com/2855/10040590373_2fcce3c834_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}, {
+				href : 'http://farm8.staticflickr.com/7306/10040452974_ff8e35749a_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}, {
+				href : 'http://farm6.staticflickr.com/5471/10040508276_2e2f8c34cf_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}, {
+				href : 'http://farm4.staticflickr.com/3769/10040590053_0059e0bb30_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}, {
+				href : 'http://farm3.staticflickr.com/2870/10040492645_597c010810_o.jpg',
+				title : 'Diseño y Programación del sitio de Vajacases.com'
+			}
+		]);
+    });
+	
+	$("#madmen").click(function() {
+		$.fancybox.open([
+			{
+				href : 'http://farm8.staticflickr.com/7416/10040590873_5d39eaab2d_o.jpg',
+				title : 'Programación del sitio de Madmen.com'
+			}, {
+				href : 'http://farm8.staticflickr.com/7307/10040590793_49e0c06acc_o.jpg',
+				title : 'Programación del sitio de Madmen.com'
+			}, {
+				href : 'http://farm4.staticflickr.com/3781/10040493405_4c12f2c6b3_o.jpg',
+				title : 'Programación del sitio de Madmen.com'
+			}
+		]);
+    });
 
 });
