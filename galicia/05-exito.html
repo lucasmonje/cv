@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Venta de Tarjetas Online</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="content/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="content/default.min.css" rel="stylesheet">
+<link href="content/css/font-awesome.min.css" rel="stylesheet" >
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+
+#contenidoImprimible {
+	display:none;		
+}
+
+@media print {	
+
+#contenidoImprimible {
+	display:block;		
+}
+  
+#contenidoPagina {
+	display:none;
+}
+
+ 
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="contenidoPagina">
+
+<!-- Navigation -->
+
+<div class="fixed-header line margin">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header"> <a class="navbar-brand logoGalicia" href="#">&nbsp;</a> </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="done"> <a href="#"><b>Ingresá</b><br>
+            tus datos</a> </li>
+          <li class="done"> <a href="#"><b>Elegí</b><br>
+            tu producto</a> </li>
+          <li class="done"> <a href="#"><b>Validá</b><br>
+            tus datos</a> </li>
+          <li class="done"> <a href="#"><b>Coordiná</b><br>
+            la entrega</a> </li>
+          <li class="done"> <a href="#"><b>Confirmá</b><br>
+            tu información</a> </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+  
+  <!-- Full Width Image Header -->
+  
+</div>
+
+<!-- Page Content -->
+<div class="container" >
+  <div class="content">
+    <div class="row">
+      <div class="full-content">
+        <div class="col-xs-12 centered">
+         
+          <div class="success-message">
+          <p class="icon icon-svg checkmark"></p>
+          <h1>Bienvenido a Galicia</h1>
+          <h2>Francisco, la solicitud de tu tarjeta Visa Gold fue exitosa</h2>
+          <div class="send-mail-desktop">          
+          <h3>Te enviamos  un correo a tu e-mail con toda la información de tu solicitud.</h3>
+          </div>
+          <h4>Podrás retirar tu producto a partir del<b> 13 de Octubre en Sucursal Galicia Martinez</b>  (H. Yrigoyen 1900)</h4><br>
+          <h4 class="dni">Recordá llevar tu DNI y una copia del mismo para poder retirarlos.</h4>
+<div class="number">
+<p>Número de solicitud</p>
+<h5>98794651</h5>
+</div>
+<h5>Ver el seguimiento de mi pedido</h5>
+
+<div class="icons-download-print">
+<a href="#" style="margin-right:15px; display:none"><i class="fa fa-download" aria-hidden="true"></i></a>
+<a href="#" onclick="window.print();"><i class="fa fa-print" aria-hidden="true"></i></a>
+
+</div>
+
+</div>
+
+ <div class="send-mail-smartphones">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <p>Enviaremos esta información al <br>mail que ingresaste</p>
+ </div>
+
+
+
+
+
+
+
+<div class="customer-effort" id="calificacion">
+  		<div class="content-customer">
+	  		<p id="title">¿Qué te pareció esta nueva forma de operar?</p>
+	  		<p id="subtitle" class=" push-left hidden">Tu valoración:</p>
+			<fieldset class="rating">
+				<input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+				<input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+				<input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+				<input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+				<input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+			</fieldset>
+			<div class="clearfix"></div>
+			
+          
+            <div class="comment hidden">
+				<div class="inputWrapper">
+			      <div class="inputArea open">
+			        <label class="inputTitle"></label>
+			        <input type="mail" name="handle" id="handle2" required autocapitalize="none" autocomplete="off" autofocus class="form-control">
+			        <label for="handle" class="inputLabel" id="pregunta">¿Qué podríamos mejorar?</label>
+			        <div class="inputUnderline"></div>
+			      </div>
+			      <div class="extraInfo">
+			         <span id="extraMessage"></span>
+			      </div>
+			    </div>
+			    <button class="btn btn-caps" onClick="javascript:mostrarAgradecimiento()">Enviar</button>
+			</div>
+           
+            
+  		</div>
+		
+</div>
+
+
+<div class="thanks-text" id="thanks" style="display:none">
+<p><span>¡Muchas gracias por tu respuesta!</span> Tu opinión nos ayuda a mejorar.</p>
+</div>
+
+
+
+
+
+
+<HR class="line-success"></HR>
+
+<div class="benefits-success"> 
+
+
+  <a href="#"><h2>Aprovechá todos los beneficios de Galicia</h2></a> 
+  <div>%</div>
+  <h3>Ahorrá con nuestros descuentos exclusivos.</h3>
+
+</div>
+
+ 
+
+ <div class="margin-bottom-50 margin-top-100"> 
+    <a href="http://www.bancogalicia.com" target="_blank">
+      <button type="button" class="btn btn-md">conocé todos los beneficios</button>
+    </a> 
+ </div>
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /.container --> 
+  
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Banco Galicia</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<div id="contenidoImprimible">
+
+<table>
+	<tr>
+		<td>Estimado/a <font color "#ff6600">Laura García</font><br><br></td>
+	</tr>
+	<tr>
+		<td>
+			¡Muchas gracias por solicitar <font color "#ff6600">Servicio Galicia Prefer</font>!.<br><br> 
+			El  número de referencia de tu solicitud es <font color "#ff6600">123456</font>. Con este número podés consultar el estado de la misma, en cualquier momento, desde bancogalicia.com, opción Hacete Galicia.<br><br>
+			Dentro de 16 días hábiles estarás recibiendo tu tarjeta Galicia <font color "#ff6600">  Platinum   </font> en <font color "#ff6600">  Florida 361  </font>.<br><br>
+			Recordá que para hacer efectiva la entrega, deberás estar presente ya que es necesario que firmes el contrato que llevará el representante de OCA. Además, te pediremos que presentes tu DNI y entregues una fotocopia del mismo.*<br><br>En caso de no poder recibirla te recomendamos comunicarte al 6329-6540 (desde Capital y GBA) o al 0810-444-6655 (desde el interior) de lunes a viernes de 9 a 21 hs, para coordinar un nuevo d iacute;a y horario de entrega.<br><br>
+	
+			<font color "#ff6600">Una vez firmado el contrato, te enviaremos la Tarjeta Galicia Débito al mismo domicilio. En este caso, podrá recibirla cualquier persona mayor de 18 años con su DNI.</font><br><br>
+
+			<br>¡Muy pronto podrás disfrutar todos los beneficios de las Tarjetas Galicia!<br><br><font size "2">* Hoja 1 y 2, o frente y dorso según corresponda.</font><br><br>Cordialmente,<br>Banco Galicia.  
+			<br><br>ESTE MENSAJE SE GENERA AUTOM Aacute;TICAMENTE, POR FAVOR NO RESPONDAS AL REMITENTE. PARA REALIZAR COMENTARIOS O CONSULTAS, ESCRIBINOS A BANCOGALICIA@BANCOGALICIA.COM.AR.
+		</td>
+	</tr>
+</table>
+
+
+</div>
+
+<!-- jQuery --> 
+<script src="script/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="script/bootstrap.min.js"></script> 
+<script src="script/main.js"></script> 
+<script type="text/javascript">
+
+
+
+if($(".customer-effort").length > 0){
+    $('.customer-effort a.icon-close').on('click', function(event){
+        event.preventDefault();
+        $('.customer-effort').remove();
+    });
+
+    $('.customer-effort fieldset input').on('click', function(event){
+        console.log();
+        $('.customer-effort #title').addClass('hidden');
+        $('.customer-effort #subtitle').removeClass('hidden');
+        $('.customer-effort .comment').removeClass('hidden');
+        var msj = "¿Qué podríamos mejorar?"
+        if(this.value == 5){
+            var msj = "Contanos por qué"
+        }
+        $('.customer-effort .inputLabel').html(msj);
+    });
+}
+
+$("#handle2").on('keyup',function(e){
+if($(this).val() === ""){
+	$("#pregunta").show();
+}
+else{
+	$("#pregunta").hide();
+}
+});  
+
+
+function mostrarAgradecimiento() { 
+
+if (document.getElementById("thanks").style.display == 'none') {
+document.getElementById("thanks").style.display='';
+document.getElementById("calificacion").style.display='none';
+}
+}
+
+
+
+</script>
+</body>
+</html>
