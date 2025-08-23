@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "energy.json",
+  "title": "Energy Reward Schema",
+  "description": "Schema for energy rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "energy",
+      "description": "Reward category: Energy"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    }
+  },
+  "required": [
+    "category",
+    "amount"
+  ],
+  "additionalProperties": false
+}

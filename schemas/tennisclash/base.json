@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "base.json",
+  "title": "Base Types and Common Definitions",
+  "description": "Common types and definitions used across TennisClash schemas",
+  "definitions": {
+    "amount": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
+    },
+    "textField": {
+      "type": "string",
+      "description": "Custom text field for the reward"
+    }
+  }
+}

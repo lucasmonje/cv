@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "soft.json",
+  "title": "Soft Currency Reward Schema",
+  "description": "Schema for soft currency rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "soft",
+      "description": "Reward category: Soft Currency"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    }
+  },
+  "required": [
+    "category",
+    "amount"
+  ],
+  "additionalProperties": false
+}

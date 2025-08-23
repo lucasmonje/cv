@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pack.json",
+  "title": "Liveops Packs Reward Schema",
+  "description": "Schema for liveops packs rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "pack",
+      "description": "Reward category: Liveops Packs"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    },
+    "textField": {
+      "$ref": "../base.json#/definitions/textField"
+    }
+  },
+  "required": [
+    "category",
+    "amount",
+    "textField"
+  ],
+  "additionalProperties": false
+}

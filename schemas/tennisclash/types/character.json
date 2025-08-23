@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character.json",
+  "title": "Character Reward Schema",
+  "description": "Schema for character rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "character",
+      "description": "Reward category: Character"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "bat",
+        "beaver",
+        "bee",
+        "bluemacaw",
+        "buffalo",
+        "capybara",
+        "cat",
+        "chameleon",
+        "crab",
+        "crocodile",
+        "eagle",
+        "echidna",
+        "elephant",
+        "flamingo",
+        "frog",
+        "giraffe",
+        "gorilla",
+        "hippo",
+        "kangaroo",
+        "lion",
+        "octopus",
+        "panda",
+        "panther",
+        "peacock",
+        "penguin",
+        "rabbit",
+        "raccoon",
+        "rat",
+        "reindeer",
+        "rhino",
+        "salamander",
+        "shark",
+        "snake",
+        "tiger",
+        "turtle",
+        "wolf",
+        "zebra",
+        "ladybug",
+        "lemur",
+        "owl",
+        "polarbear"
+      ],
+      "title": "Character",
+      "description": "Available character options"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    }
+  },
+  "required": [
+    "category",
+    "type",
+    "amount"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chest.json",
+  "title": "Chest Reward Schema",
+  "description": "Schema for chest rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "chest",
+      "description": "Reward category: Chest"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "chest_0",
+        "chest_1",
+        "chest_10",
+        "chest_2",
+        "chest_3",
+        "chest_4",
+        "chest_5",
+        "chest_6",
+        "chest_7",
+        "chest_8",
+        "chest_9",
+        "tutorial"
+      ],
+      "title": "Type",
+      "description": "Available type options"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    }
+  },
+  "required": [
+    "category",
+    "type",
+    "amount"
+  ],
+  "additionalProperties": false
+}

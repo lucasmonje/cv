@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "clanTickets.json",
+  "title": "Clan Tickets Reward Schema",
+  "description": "Schema for clan tickets rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "clanTickets",
+      "description": "Reward category: Clan Tickets"
+    },
+    "amount": {
+      "$ref": "../base.json#/definitions/amount"
+    }
+  },
+  "required": [
+    "category",
+    "amount"
+  ],
+  "additionalProperties": false
+}

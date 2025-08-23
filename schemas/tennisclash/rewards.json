@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rewards.json",
+  "title": "TennisClash Rewards Schema",
+  "description": "Schema for validating TennisClash reward configurations",
+  "type": "object",
+  "properties": {
+    "rewards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "soft",
+              "hard",
+              "energy",
+              "clanTickets",
+              "chest",
+              "character",
+              "item",
+              "skin",
+              "sticker",
+              "pack"
+            ]
+          }
+        },
+        "oneOf": [
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "soft"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/soft.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "hard"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/hard.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "energy"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/energy.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "clanTickets"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/clanTickets.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "chest"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/chest.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "character"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/character.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "item"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/item.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "skin"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/skin.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "sticker"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/sticker.json"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "category": {
+                  "const": "pack"
+                }
+              }
+            },
+            "then": {
+              "$ref": "./types/pack.json"
+            }
+          }
+        ]
+      },
+      "description": "Array of reward configurations"
+    }
+  },
+  "required": [
+    "rewards"
+  ],
+  "additionalProperties": false
+}
