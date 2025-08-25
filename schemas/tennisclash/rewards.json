@@ -9,146 +9,96 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "category"
-        ],
-        "properties": {
-          "category": {
-            "type": "string",
-            "enum": [
-              "soft",
-              "hard",
-              "energy",
-              "clanTickets",
-              "chest",
-              "character",
-              "item",
-              "skin",
-              "sticker",
-              "pack"
-            ]
-          }
-        },
-        "oneOf": [
+        "allOf": [
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "soft"
-                }
-              }
+                "category": { "const": "soft" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/soft.json"
-            }
+            "then": { "$ref": "tennisclash/types/soft.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "hard"
-                }
-              }
+                "category": { "const": "hard" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/hard.json"
-            }
+            "then": { "$ref": "tennisclash/types/hard.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "energy"
-                }
-              }
+                "category": { "const": "energy" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/energy.json"
-            }
+            "then": { "$ref": "tennisclash/types/energy.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "clanTickets"
-                }
-              }
+                "category": { "const": "clanTickets" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/clanTickets.json"
-            }
+            "then": { "$ref": "tennisclash/types/clanTickets.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "chest"
-                }
-              }
+                "category": { "const": "chest" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/chest.json"
-            }
+            "then": { "$ref": "tennisclash/types/chest.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "character"
-                }
-              }
+                "category": { "const": "character" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/character.json"
-            }
+            "then": { "$ref": "tennisclash/types/character.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "item"
-                }
-              }
+                "category": { "const": "item" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/item.json"
-            }
+            "then": { "$ref": "tennisclash/types/item.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "skin"
-                }
-              }
+                "category": { "const": "skin" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/skin.json"
-            }
+            "then": { "$ref": "tennisclash/types/skin.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "sticker"
-                }
-              }
+                "category": { "const": "sticker" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/sticker.json"
-            }
+            "then": { "$ref": "tennisclash/types/sticker.json" }
           },
           {
             "if": {
               "properties": {
-                "category": {
-                  "const": "pack"
-                }
-              }
+                "category": { "const": "pack" }
+              },
+              "required": ["category"]
             },
-            "then": {
-              "$ref": "tennisclash/types/pack.json"
-            }
+            "then": { "$ref": "tennisclash/types/pack.json" }
           }
         ]
       },
