@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/clanTickets.json",
+  "title": "Clan Tickets Reward Schema",
+  "description": "Schema for clan tickets rewards",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "ticket",
+      "description": "Reward category: Ticket"
+    },
+    "type": {
+      "type": "string",
+      "const": "clanTickets",
+      "description": "Ticket type: Clan Tickets"
+    },
+    "amount": {
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
+    }
+  },
+  "required": [
+    "category",
+    "type",
+    "amount"
+  ],
+  "unevaluatedProperties": false,
+  "$defs": {}
+}

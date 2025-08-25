@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "tennisclash/types/sticker.json",
-  "title": "Stickers Reward Schema",
-  "description": "Schema for stickers rewards",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/sticker.json",
+  "title": "Sticker Reward Schema",
+  "description": "Schema for sticker rewards",
   "type": "object",
   "properties": {
     "category": {
@@ -636,7 +636,10 @@
       "description": "Available type options"
     },
     "amount": {
-      "$ref": "tennisclash/base.json#amount"
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
     }
   },
   "required": [
@@ -644,5 +647,6 @@
     "sticker",
     "amount"
   ],
-  "additionalProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {}
 }

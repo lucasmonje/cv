@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "tennisclash/types/chest.json",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/chest.json",
   "title": "Chest Reward Schema",
   "description": "Schema for chest rewards",
   "type": "object",
@@ -30,7 +30,10 @@
       "description": "Available type options"
     },
     "amount": {
-      "$ref": "tennisclash/base.json#amount"
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
     }
   },
   "required": [
@@ -38,5 +41,6 @@
     "type",
     "amount"
   ],
-  "additionalProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {}
 }

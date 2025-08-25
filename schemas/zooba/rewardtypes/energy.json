@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "tennisclash/types/energy.json",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/energy.json",
   "title": "Energy Reward Schema",
   "description": "Schema for energy rewards",
   "type": "object",
@@ -11,12 +11,16 @@
       "description": "Reward category: Energy"
     },
     "amount": {
-      "$ref": "tennisclash/base.json#amount"
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
     }
   },
   "required": [
     "category",
     "amount"
   ],
-  "additionalProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {}
 }

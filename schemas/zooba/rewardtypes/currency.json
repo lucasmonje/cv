@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/currency.json",
+  "title": "Currency Reward Schema",
+  "description": "Schema for currency rewards (soft and hard)",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "currency",
+      "description": "Reward category: Currency"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "soft",
+        "hard"
+      ],
+      "description": "Currency type: soft or hard"
+    },
+    "amount": {
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
+    }
+  },
+  "required": [
+    "category",
+    "type",
+    "amount"
+  ],
+  "unevaluatedProperties": false,
+  "$defs": {}
+}

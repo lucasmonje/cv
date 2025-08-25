@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/skin.json",
+  "title": "Skin Reward Schema",
+  "description": "Schema for skin rewards - supports locked/unlocked or character skins with amount and rarity",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "skin",
+      "description": "Reward category: Skin"
+    },
+    "type": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "locked",
+            "unlocked"
+          ],
+          "description": "Skin lock status"
+        },
+        {
+          "type": "string",
+          "enum": [
+            "alpaca",
+            "bat",
+            "beaver",
+            "bee",
+            "bluemacaw",
+            "buffalo",
+            "capybara",
+            "cat",
+            "chameleon",
+            "crab",
+            "crocodile",
+            "eagle",
+            "echidna",
+            "elephant",
+            "flamingo",
+            "frog",
+            "giraffe",
+            "gorilla",
+            "hippo",
+            "kangaroo",
+            "koala",
+            "komodo",
+            "lion",
+            "octopus",
+            "orca",
+            "panda",
+            "panther",
+            "peacock",
+            "penguin",
+            "rabbit",
+            "raccoon",
+            "rat",
+            "reindeer",
+            "rhino",
+            "salamander",
+            "shark",
+            "snake",
+            "tiger",
+            "turtle",
+            "wolf",
+            "zebra",
+            "ladybug",
+            "lemur",
+            "owl",
+            "polarbear"
+          ],
+          "description": "Character type for the skin"
+        }
+      ],
+      "description": "Skin type - either locked/unlocked or character name"
+    },
+    "amount": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "SkinID (it's the SkinIndex required for character skins)"
+    },
+    "rarity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20,
+      "description": "Rarity value (0-20, required for character skins)"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "locked",
+              "unlocked"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "category",
+          "type"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "not": {
+              "enum": [
+                "locked",
+                "unlocked"
+              ]
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "category",
+          "type",
+          "amount",
+          "rarity"
+        ]
+      }
+    }
+  ],
+  "unevaluatedProperties": false,
+  "$defs": {}
+}

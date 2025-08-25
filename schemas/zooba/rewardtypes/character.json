@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "tennisclash/types/character.json",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/character.json",
   "title": "Character Reward Schema",
   "description": "Schema for character rewards",
   "type": "object",
@@ -13,6 +13,7 @@
     "type": {
       "type": "string",
       "enum": [
+        "alpaca",
         "bat",
         "beaver",
         "bee",
@@ -32,8 +33,11 @@
         "gorilla",
         "hippo",
         "kangaroo",
+        "koala",
+        "komodo",
         "lion",
         "octopus",
+        "orca",
         "panda",
         "panther",
         "peacock",
@@ -55,11 +59,14 @@
         "owl",
         "polarbear"
       ],
-      "title": "Character",
-      "description": "Available character options"
+      "title": "Type",
+      "description": "Character type"
     },
     "amount": {
-      "$ref": "tennisclash/base.json#amount"
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
     }
   },
   "required": [
@@ -67,5 +74,6 @@
     "type",
     "amount"
   ],
-  "additionalProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {}
 }

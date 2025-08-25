@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "tennisclash/types/pack.json",
+  "$id": "https://wls.com/schemas/zooba/rewardtypes/pack.json",
   "title": "Liveops Packs Reward Schema",
   "description": "Schema for liveops packs rewards",
   "type": "object",
@@ -11,10 +11,16 @@
       "description": "Reward category: Pack"
     },
     "amount": {
-      "$ref": "tennisclash/base.json#amount"
+      "$anchor": "amount",
+      "type": "number",
+      "minimum": 0,
+      "description": "Quantity or amount of the reward"
     },
     "textField": {
-      "$ref": "tennisclash/base.json#non-empty-string"
+      "$anchor": "non-empty-string",
+      "type": "string",
+      "minLength": 1,
+      "description": "String that must not be empty"
     }
   },
   "required": [
@@ -22,5 +28,6 @@
     "amount",
     "textField"
   ],
-  "additionalProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {}
 }
