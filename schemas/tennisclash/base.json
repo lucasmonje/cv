@@ -10,11 +10,6 @@
       "minimum": 0,
       "description": "Quantity or amount of the reward"
     },
-    "textField": {
-      "$anchor": "textField",
-      "type": "string",
-      "description": "Custom text field for the reward"
-    },
     "non-empty-string": {
       "$anchor": "non-empty-string",
       "type": "string",

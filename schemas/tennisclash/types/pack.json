@@ -14,7 +14,7 @@
       "$ref": "tennisclash/base.json#amount"
     },
     "textField": {
-      "$ref": "../base.json#/definitions/textField"
+      "$ref": "tennisclash/base.json#/non-empty-string"
     }
   },
   "required": [
