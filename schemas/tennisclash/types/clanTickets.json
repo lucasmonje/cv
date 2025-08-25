@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "clanTickets.json",
+  "$id": "tennisclash/types/clanTickets.json",
   "title": "Clan Tickets Reward Schema",
   "description": "Schema for clan tickets rewards",
   "type": "object",
@@ -8,10 +8,10 @@
     "category": {
       "type": "string",
       "const": "clanTickets",
-      "description": "Reward category: Clan Tickets"
+      "description": "Reward category: ClanTickets"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

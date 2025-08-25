@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "energy.json",
+  "$id": "tennisclash/types/energy.json",
   "title": "Energy Reward Schema",
   "description": "Schema for energy rewards",
   "type": "object",
@@ -11,7 +11,7 @@
       "description": "Reward category: Energy"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

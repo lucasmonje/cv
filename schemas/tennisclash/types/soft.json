@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "soft.json",
+  "$id": "tennisclash/types/soft.json",
   "title": "Soft Currency Reward Schema",
   "description": "Schema for soft currency rewards",
   "type": "object",
@@ -8,10 +8,10 @@
     "category": {
       "type": "string",
       "const": "soft",
-      "description": "Reward category: Soft Currency"
+      "description": "Reward category: Soft"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

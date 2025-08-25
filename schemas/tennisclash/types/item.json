@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "item.json",
+  "$id": "tennisclash/types/item.json",
   "title": "Item Reward Schema",
   "description": "Schema for item rewards",
   "type": "object",
@@ -97,7 +97,7 @@
       "description": "Available type options"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

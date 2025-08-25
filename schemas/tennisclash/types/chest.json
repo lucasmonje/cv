@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "chest.json",
+  "$id": "tennisclash/types/chest.json",
   "title": "Chest Reward Schema",
   "description": "Schema for chest rewards",
   "type": "object",
@@ -30,7 +30,7 @@
       "description": "Available type options"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

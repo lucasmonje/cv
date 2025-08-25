@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "rewards.json",
+  "$id": "tennisclash/rewards.json",
   "title": "TennisClash Rewards Schema",
   "description": "Schema for validating TennisClash reward configurations",
   "type": "object",
@@ -39,7 +39,7 @@
               }
             },
             "then": {
-              "$ref": "./types/soft.json"
+              "$ref": "tennisclash/types/soft.json"
             }
           },
           {
@@ -51,7 +51,7 @@
               }
             },
             "then": {
-              "$ref": "./types/hard.json"
+              "$ref": "tennisclash/types/hard.json"
             }
           },
           {
@@ -63,7 +63,7 @@
               }
             },
             "then": {
-              "$ref": "./types/energy.json"
+              "$ref": "tennisclash/types/energy.json"
             }
           },
           {
@@ -75,7 +75,7 @@
               }
             },
             "then": {
-              "$ref": "./types/clanTickets.json"
+              "$ref": "tennisclash/types/clanTickets.json"
             }
           },
           {
@@ -87,7 +87,7 @@
               }
             },
             "then": {
-              "$ref": "./types/chest.json"
+              "$ref": "tennisclash/types/chest.json"
             }
           },
           {
@@ -99,7 +99,7 @@
               }
             },
             "then": {
-              "$ref": "./types/character.json"
+              "$ref": "tennisclash/types/character.json"
             }
           },
           {
@@ -111,7 +111,7 @@
               }
             },
             "then": {
-              "$ref": "./types/item.json"
+              "$ref": "tennisclash/types/item.json"
             }
           },
           {
@@ -123,7 +123,7 @@
               }
             },
             "then": {
-              "$ref": "./types/skin.json"
+              "$ref": "tennisclash/types/skin.json"
             }
           },
           {
@@ -135,7 +135,7 @@
               }
             },
             "then": {
-              "$ref": "./types/sticker.json"
+              "$ref": "tennisclash/types/sticker.json"
             }
           },
           {
@@ -147,7 +147,7 @@
               }
             },
             "then": {
-              "$ref": "./types/pack.json"
+              "$ref": "tennisclash/types/pack.json"
             }
           }
         ]

@@ -1,17 +1,31 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "base.json",
+  "$id": "tennisclash/base.json",
   "title": "Base Types and Common Definitions",
   "description": "Common types and definitions used across TennisClash schemas",
-  "definitions": {
+  "$defs": {
     "amount": {
+      "$anchor": "amount",
       "type": "number",
       "minimum": 0,
       "description": "Quantity or amount of the reward"
     },
     "textField": {
+      "$anchor": "textField",
       "type": "string",
       "description": "Custom text field for the reward"
+    },
+    "non-empty-string": {
+      "$anchor": "non-empty-string",
+      "type": "string",
+      "minLength": 1,
+      "description": "String that must not be empty"
+    },
+    "positive-integer": {
+      "$anchor": "positive-integer",
+      "type": "integer",
+      "minimum": 1,
+      "description": "Positive integer value"
     }
   }
 }

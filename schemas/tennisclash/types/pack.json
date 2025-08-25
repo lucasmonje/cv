@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "pack.json",
+  "$id": "tennisclash/types/pack.json",
   "title": "Liveops Packs Reward Schema",
   "description": "Schema for liveops packs rewards",
   "type": "object",
@@ -8,10 +8,10 @@
     "category": {
       "type": "string",
       "const": "pack",
-      "description": "Reward category: Liveops Packs"
+      "description": "Reward category: Pack"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     },
     "textField": {
       "$ref": "../base.json#/definitions/textField"

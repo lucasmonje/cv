@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "skin.json",
+  "$id": "tennisclash/types/skin.json",
   "title": "Skin Reward Schema",
   "description": "Schema for skin rewards",
   "type": "object",

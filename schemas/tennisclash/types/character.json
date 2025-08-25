@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "character.json",
+  "$id": "tennisclash/types/character.json",
   "title": "Character Reward Schema",
   "description": "Schema for character rewards",
   "type": "object",
@@ -59,7 +59,7 @@
       "description": "Available character options"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [

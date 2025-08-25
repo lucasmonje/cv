@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "hard.json",
+  "$id": "tennisclash/types/hard.json",
   "title": "Hard Currency Reward Schema",
   "description": "Schema for hard currency rewards",
   "type": "object",
@@ -8,10 +8,10 @@
     "category": {
       "type": "string",
       "const": "hard",
-      "description": "Reward category: Hard Currency"
+      "description": "Reward category: Hard"
     },
     "amount": {
-      "$ref": "../base.json#/definitions/amount"
+      "$ref": "tennisclash/base.json#amount"
     }
   },
   "required": [
